@@ -4,7 +4,7 @@ public class PickUpScript : MonoBehaviour
 {
     public GameObject player;
     public Transform holdPos; // Position where object is held
-    public float pickUpRange = 4f; // Pickup distance
+    public float pickUpRange = 2f; // Pickup distance
     public float moveSpeed = 15f; // Movement speed for smooth pickup
     public float rotationSensitivity = 8f; // Adjusted for smoother rotation
     private GameObject heldObj;

@@ -7,7 +7,7 @@ public class NesslerContainer : MonoBehaviour
         if (!testTube.HasNessler)
         {
             testTube.AddNessler();
-            Debug.Log("Nessler’s reagent added to test tube!");
+            Debug.Log("Nessler’s reagent added to the test tube! Yellow or brown precipitate formed! (NH4+ detected)");
         }
     }
 }
